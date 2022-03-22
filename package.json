@@ -2,9 +2,10 @@
   "name": "piux",
   "version": "1.0.0",
   "description": "UX Toolkit for Raspberry Pi",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ipdlab/PiUX/issues"
   },
-  "homepage": "https://github.com/ipdlab/PiUX#readme"
+  "homepage": "https://github.com/ipdlab/PiUX#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.22",
+    "typescript": "^4.6.2"
+  }
 }
