@@ -1,1 +1,3 @@
-import os from 'os';
+import Visual from "./Visual";
+
+export { Visual };
