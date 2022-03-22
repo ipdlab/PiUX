@@ -5,7 +5,7 @@ UX Toolkit for Raspberry Pi
 ## Installing
 
 ```bash
-npm install git+https://github.com/ipdlab/PiUX.gi
+npm install git+https://github.com/ipdlab/PiUX.git
 ```
 
 ## Usage
