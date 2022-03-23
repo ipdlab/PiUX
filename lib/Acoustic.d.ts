@@ -1,7 +1,12 @@
 declare abstract class Acoustic {
     /**
-     * Set the master volume
-     * @param volume 0-100 percentage with only integer
+     * Get the master sound volume (percentage)
+     * @returns an integer in range of 0-100
+     */
+    static getSoundVolume(): number;
+    /**
+     * Set the master sound volume (percentage)
+     * @param volume an integer in range of 0-100
      */
     static setSoundVolume(volume: number): void;
 }
