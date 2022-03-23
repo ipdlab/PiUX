@@ -1,6 +1,6 @@
 {
   "name": "piux",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "UX Toolkit for Raspberry Pi",
   "main": "lib/index.js",
   "scripts": {
