@@ -8,7 +8,7 @@ abstract class Acoustic {
    */
   static getSoundVolume(): number {
     const buffer = execSync(`amixer sget Master`);
-    const match = PatternParser(buffer, /Front Left: Playback \d+ \[(\d+)%\])/);
+    const match = PatternParser(buffer, /Front Left: Playback \d+ \[(\d+)%\]/);
     if (!match) {
       throw new Error("failed to get sound volume");
     }
