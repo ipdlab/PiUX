@@ -1,2 +1,3 @@
 import Visual from "./Visual";
-export { Visual };
+import Acoustic from "./Acoustic";
+export { Visual, Acoustic };
