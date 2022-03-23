@@ -26,3 +26,12 @@ if (displayState === "off") {
   Visual.setDisplayState("off");
 }
 ```
+
+### Acoustic
+
+```javascript
+import { Acoustic } from "piux";
+
+// Set the sound master volume as 54%
+Acoustic.setSoundVolume(54);
+```
